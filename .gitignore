@@ -1,0 +1,21 @@
+# npmパッケージはGit管理しない
+node_modules/
+
+# ロックファイル（npm, yarn, pnpmのうちどれか1つを使う場合）
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# 環境変数ファイル（APIキーや秘密情報など、.envなどを使う場合）
+.env
+
+# VSCodeなどエディタ設定
+.vscode/
+
+# OSごとの不要ファイル
+.DS_Store
+Thumbs.db
+
+# ログや一時ファイル
+npm-debug.log*
+*.log
