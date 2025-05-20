@@ -1,7 +1,11 @@
 {
   "dependencies": {
-    "@slack/web-api": "^7.9.1",
+    "@slack/web-api": "^7.9.2",
     "axios": "^1.9.0",
+    "cheerio": "^1.0.0",
+    "diff": "^8.0.1",
+    "dotenv": "^16.5.0",
+    "html-to-text": "^9.0.5",
     "node-cron": "^4.0.5"
   }
 }
